@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.stardustlabs.cavetweaks.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AquiferSamplerMixin",
+    "NoiseColumnSamplerMixin",
+    "NoiseSamplerInterface"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "cavetweaks-refmap.json"
+}

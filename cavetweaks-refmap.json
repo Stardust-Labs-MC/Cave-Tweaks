@@ -1,0 +1,62 @@
+{
+  "mappings": {
+    "net/stardustlabs/cavetweaks/mixins/AquiferSamplerMixin": {
+      "gridX": "Lnet/minecraft/class_6350$class_5832;method_33734(I)I",
+      "gridZ": "Lnet/minecraft/class_6350$class_5832;method_33743(I)I",
+      "computeFluid": "Lnet/minecraft/class_6350$class_5832;computeFluid(III)Lnet/minecraft/class_6350$class_6351;",
+      "similarity(II)D": "Lnet/minecraft/class_6350$class_5832;method_33736(II)D",
+      "Lnet/minecraft/util/Mth;clamp(DDD)D": "Lnet/minecraft/class_3532;method_15350(DDD)D",
+      "Lnet/minecraft/world/level/levelgen/synth/NormalNoise;getValue(DDD)D": "Lnet/minecraft/class_5216;method_27406(DDD)D",
+      "computeSubstance": "Lnet/minecraft/class_6350$class_5832;method_38317(IIIDD)Lnet/minecraft/class_2680;",
+      "Lnet/minecraft/util/Mth;map(DDDDD)D": "Lnet/minecraft/class_3532;method_33722(DDDDD)D"
+    },
+    "net/stardustlabs/cavetweaks/mixins/NoiseColumnSamplerMixin": {
+      "getSpaghetti2D": "Lnet/minecraft/class_5818;method_38410(III)D",
+      "getLayerizedCaverns": "Lnet/minecraft/class_5818;method_38405(III)D",
+      "getSpaghetti3D": "Lnet/minecraft/class_5818;method_38408(III)D",
+      "calculateBaseNoise(IIILnet/minecraft/world/level/levelgen/TerrainInfo;DZZLnet/minecraft/world/level/levelgen/blending/Blender;)D": "Lnet/minecraft/class_5818;method_38381(IIILnet/minecraft/class_6576;DZZLnet/minecraft/class_6748;)D",
+      "getBigEntrances": "Lnet/minecraft/class_5818;method_38398(III)D",
+      "Lnet/minecraft/world/level/levelgen/NoiseSampler;sampleWithRarity(Lnet/minecraft/world/level/levelgen/synth/NormalNoise;DDDD)D": "Lnet/minecraft/class_5818;method_38393(Lnet/minecraft/class_5216;DDDD)D",
+      "makeBaseNoiseFiller": "Lnet/minecraft/class_5818;method_38390(Lnet/minecraft/class_6568;Lnet/minecraft/class_6568$class_6572;Z)Lnet/minecraft/class_6568$class_6569;",
+      "Lnet/minecraft/world/level/levelgen/synth/NormalNoise;getValue(DDD)D": "Lnet/minecraft/class_5216;method_27406(DDD)D",
+      "getPillars": "Lnet/minecraft/class_5818;method_38402(III)D",
+      "sample": "Lnet/minecraft/class_5818;sample(III)Lnet/minecraft/class_6544$class_6553;",
+      "getHumidity": "Lnet/minecraft/class_5818;method_38396(DDD)D",
+      "getTemperature": "Lnet/minecraft/class_5818;method_38375(DDD)D"
+    },
+    "net/stardustlabs/cavetweaks/mixins/NoiseSamplerInterface": {
+      "yLimitedInterpolatableNoise": "method_38379(Lnet/minecraft/class_5216;IIID)Lnet/minecraft/class_6568$class_6571;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/stardustlabs/cavetweaks/mixins/AquiferSamplerMixin": {
+        "gridX": "Lnet/minecraft/class_6350$class_5832;method_33734(I)I",
+        "gridZ": "Lnet/minecraft/class_6350$class_5832;method_33743(I)I",
+        "computeFluid": "Lnet/minecraft/class_6350$class_5832;computeFluid(III)Lnet/minecraft/class_6350$class_6351;",
+        "similarity(II)D": "Lnet/minecraft/class_6350$class_5832;method_33736(II)D",
+        "Lnet/minecraft/util/Mth;clamp(DDD)D": "Lnet/minecraft/class_3532;method_15350(DDD)D",
+        "Lnet/minecraft/world/level/levelgen/synth/NormalNoise;getValue(DDD)D": "Lnet/minecraft/class_5216;method_27406(DDD)D",
+        "computeSubstance": "Lnet/minecraft/class_6350$class_5832;method_38317(IIIDD)Lnet/minecraft/class_2680;",
+        "Lnet/minecraft/util/Mth;map(DDDDD)D": "Lnet/minecraft/class_3532;method_33722(DDDDD)D"
+      },
+      "net/stardustlabs/cavetweaks/mixins/NoiseColumnSamplerMixin": {
+        "getSpaghetti2D": "Lnet/minecraft/class_5818;method_38410(III)D",
+        "getLayerizedCaverns": "Lnet/minecraft/class_5818;method_38405(III)D",
+        "getSpaghetti3D": "Lnet/minecraft/class_5818;method_38408(III)D",
+        "calculateBaseNoise(IIILnet/minecraft/world/level/levelgen/TerrainInfo;DZZLnet/minecraft/world/level/levelgen/blending/Blender;)D": "Lnet/minecraft/class_5818;method_38381(IIILnet/minecraft/class_6576;DZZLnet/minecraft/class_6748;)D",
+        "getBigEntrances": "Lnet/minecraft/class_5818;method_38398(III)D",
+        "Lnet/minecraft/world/level/levelgen/NoiseSampler;sampleWithRarity(Lnet/minecraft/world/level/levelgen/synth/NormalNoise;DDDD)D": "Lnet/minecraft/class_5818;method_38393(Lnet/minecraft/class_5216;DDDD)D",
+        "makeBaseNoiseFiller": "Lnet/minecraft/class_5818;method_38390(Lnet/minecraft/class_6568;Lnet/minecraft/class_6568$class_6572;Z)Lnet/minecraft/class_6568$class_6569;",
+        "Lnet/minecraft/world/level/levelgen/synth/NormalNoise;getValue(DDD)D": "Lnet/minecraft/class_5216;method_27406(DDD)D",
+        "getPillars": "Lnet/minecraft/class_5818;method_38402(III)D",
+        "sample": "Lnet/minecraft/class_5818;sample(III)Lnet/minecraft/class_6544$class_6553;",
+        "getHumidity": "Lnet/minecraft/class_5818;method_38396(DDD)D",
+        "getTemperature": "Lnet/minecraft/class_5818;method_38375(DDD)D"
+      },
+      "net/stardustlabs/cavetweaks/mixins/NoiseSamplerInterface": {
+        "yLimitedInterpolatableNoise": "method_38379(Lnet/minecraft/class_5216;IIID)Lnet/minecraft/class_6568$class_6571;"
+      }
+    }
+  }
+}
